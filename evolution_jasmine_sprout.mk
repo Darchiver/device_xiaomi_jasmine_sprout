@@ -11,7 +11,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 
 # Inherit some common Pixel Experience stuff
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 TARGET_INCLUDE_STOCK_ARCORE := false
 
 # We are a phone
@@ -30,6 +30,6 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := jasmine_sprout
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := Mi A2
-PRODUCT_NAME := aosp_jasmine_sprout
+PRODUCT_NAME := evolution_jasmine_sprout
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
